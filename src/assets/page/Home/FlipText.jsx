@@ -14,7 +14,7 @@ const FlipText = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prevIndex) => (prevIndex + 1) % texts.length);
-    }, 3000);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, []);
@@ -28,7 +28,7 @@ const FlipText = () => {
           animate={{ rotateX: 0, opacity: 1 }}
           exit={{ rotateX: -90, opacity: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="absolute"
+          // className="absolute"
         >
           {texts[index]}
         </motion.div>

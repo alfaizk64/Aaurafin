@@ -79,7 +79,8 @@ function Derivatives() {
                 <p className="mt-[24px] text-white mobile_para_font poppins-bold text-justify text-[16px] md:text-[18px] leading-[30px]">
                   Data Import :
                   <span className="font-normal">
-                    Import F&O digital contract notes and trade-book files.
+                    {" "}
+                     Import F&O digital contract notes and trade-book files.
                   </span>
                 </p>
                 <p className="mt-[24px] text-white mobile_para_font poppins-bold text-justify text-[16px] md:text-[18px] leading-[30px]">

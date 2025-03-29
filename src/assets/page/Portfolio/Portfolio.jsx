@@ -58,7 +58,7 @@ function Portfolio() {
                   ))}
                 </div>
                 <p className="mt-[24px] text-[#12122A] poppins-bold mobile_para_font text-justify font-bold text-[16px] md:text-[18px] leading-[30px]">
-                  Performance Metrics:
+                  Performance Metrics :
                   <span className="font-normal">
                     {" "}
                     Evaluate Absolute Gain and Annualized Return (XIRR) for all

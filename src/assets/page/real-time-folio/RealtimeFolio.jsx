@@ -17,22 +17,22 @@ function RealtimeFolio() {
                       Portfolio valuations
                   </h2>
                   <p className="mt-[24px] poppins-regular mobile_para_font md:leading-[30px] text-[#12122A] text-justify text-[16px] md:text-[18px]">
-                    <span className="font-bold"> Price Updates: </span>{" "}
+                    <span className="font-bold"> Price Updates : </span>{" "}
                     Receive valuations for Stocks and ETFs  using autonomous data
                     feeds.
                   </p>
                   <p className="mt-[24px] poppins-regular mobile_para_font md:leading-[30px] text-[#12122A] text-justify text-[16px] md:text-[18px]">
-                    <span className="font-bold"> NAV Updates: </span>Get
+                    <span className="font-bold"> NAV Updates : </span>Get
                      Net Asset Value updates for Mutual Funds and
                     price updates for Listed Bonds.
                   </p>
                   <p className="mt-[24px] poppins-regular mobile_para_font md:leading-[30px] text-[#12122A] text-justify text-[16px] md:text-[18px]">
-                    <span className="font-bold">Corporate Actions: </span>
+                    <span className="font-bold">Corporate Actions : </span>
                     Automatic updates for dividends, bonuses, splits, mergers,
                     and demergers with intelligent automation.
                   </p>
                   <p className="mt-[24px] poppins-regular mobile_para_font md:leading-[30px] text-[#12122A] text-justify text-[16px] md:text-[18px]">
-                    <span className="font-bold">Historical Valuations: </span>
+                    <span className="font-bold">Historical Valuations : </span>
                     Access end-of-month valuations for comprehensive performance
                     analysis.
                   </p>
@@ -73,24 +73,27 @@ function RealtimeFolio() {
                     Gains Reporting
                   </h2>
                   <p className="mt-[24px] poppins-regular mobile_para_font md:leading-[30px] text-[#12122A] text-justify text-[16px] md:text-[18px]">
-                    <span className="font-bold">ITR-Compatible Reports: </span>
+                    <span className="font-bold">ITR-Compatible Reports : 
+                    </span>{" "}
                     Generate capital gain reports in formats compatible with
                     income tax returns using augmented reporting tools.
                   </p>
                   <p className="mt-[24px] poppins-regular mobile_para_font md:leading-[30px] text-[#12122A] text-justify text-[16px] md:text-[18px]">
                     <span className="font-bold">
                       Asset-Specific Calculations :
-                    </span>
+                    </span>{" "}
                     Compute gains for Stocks, Mutual Funds, and Traded Bonds.
                   </p>
                   <p className="mt-[24px] poppins-regular mobile_para_font md:leading-[30px] text-[#12122A] text-justify text-[16px] md:text-[18px]">
-                    <span className="font-bold">Tax Provisions: </span>Account
-                    for LTCG grandfathering and indexation benefits where
+                    <span className="font-bold">Tax Provisions : 
+                    </span>{" "}
+                    Account for LTCG grandfathering and indexation benefits where
                     applicable.
                   </p>
                   <p className="mt-[24px] poppins-regular mobile_para_font md:leading-[30px] text-[#12122A] text-justify text-[16px] md:text-[18px]">
-                    <span className="font-bold">Unrealized Gains: </span>View
-                    unrealized capital gains to estimate tax liabilities before
+                    <span className="font-bold">Unrealized Gains : 
+                      </span>{" "}
+                      View unrealized capital gains to estimate tax liabilities before
                     selling assets with assisted tax planning tools.
                   </p>
                   {/* <Button
