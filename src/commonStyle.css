@@ -1,0 +1,130 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.poppins-thin {
+    font-family: "Poppins",   sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extraLight {
+    font-family: "Poppins",   sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins",   sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins",   sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins",   sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins",   sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins",   sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins",   sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins",   sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  .onest {
+    font-family: "Onest", sans-serif; 
+  }
+  
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+.sf-pro{
+  font-family: 'SF Pro Display', sans-serif;
+}
+.aeonik{
+  font-family: "Aeonik TRIAL";
+}
+  body {
+    background-color: white;
+  }
+
+  a {
+    /* color: #364153; */
+    text-decoration: none;
+  }
+  .footer-border{
+    border-top: 1px solid #FFFFFF
+  }
+  .footer-border-b{
+    border-bottom: 1px solid #FFFFFF
+  }
+  .clip-bottom-curve {
+    clip-path: ellipse(100% 40% at 50% 100%);
+  }
+
+  @media (min-width: 1189px) and (max-width: 1280px) {
+  
+    .girl_posiion{
+    
+      bottom: -140px;
+      right: 100px;
+    }
+    
+  }
+
+  @media (max-width: 360px){
+     .mobile_heading_font{
+      font-size: 26px;
+     }
+     .mobile_para_font{
+       font-size: 15px;
+     }
+     .mobile_button_text{
+       font-size: 13px;
+     }
+  }
+
+  @media (max-width:780px) {
+    .form_control{
+      position: absolute;
+    }
+  }
+
+  .accordion_bg{
+    background: linear-gradient(179.55deg, #F1F1F1 -39.73%, #FFFFFF 74.57%);
+
+  }
+  @media (max-width:1364px) {
+    .contactUsForm{
+      right: 1%;
+    }
+  }
+  @media  (min-width: 768px) and (max-width: 1024px) {
+     .girl_img{
+      height: 400px ;
+     }
+  }
