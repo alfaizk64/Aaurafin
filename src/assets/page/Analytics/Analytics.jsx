@@ -32,12 +32,12 @@ function Analytics() {
                   Tracking
                 </h2>
                 <p className="mt-[24px] poppins-regular mobile_para_font md:leading-[30px] text-justify text-[16px] md:text-[18px]">
-                  <span className="font-bold">New Analytics Dashboards : </span>{" "}
+                  <span className="font-bold"> Analytics Dashboards : </span>{" "}
                   Engaging interface with enhanced features for insightful
                   portfolio tracking, powered by augmented analytics.
                 </p>
                 <p className="mt-[24px] poppins-regular text-justify mobile_para_font md:leading-[30px] text-[16px] md:text-[18px]">
-                  <span className="font-bold">PMS Analytics :</span>Calculate
+                  <span className="font-bold">PMS Analytics : </span>Calculate
                   XIRR considering cash inflows and outflows for Portfolio
                   Management Services with intelligent automation
                 </p>
@@ -75,9 +75,8 @@ function Analytics() {
                 </p>
                 <p className="mt-[24px] poppins-regular mobile_para_font md:leading-[30px] text-justify text-[16px] md:text-[18px]">
                   <span className="font-bold">
-                    Discrepancy Identification :
-                  </span>
-                  Easily spot any discrepancies in investment portfolios using
+                    Discrepancy Identification : </span>
+                   Easily spot any discrepancies in investment portfolios using
                   autonomous error detection.
                 </p>
                 {/* <Button

@@ -355,9 +355,9 @@
     font-size: 18px;
   }
   
-  .listar-feature-item-excerpt {
+  /* .listar-feature-item-excerpt {
     padding: 0 20px;
-  }
+  } */
   
   .listar-feature-item-excerpt {
     color: #252525;
@@ -380,7 +380,7 @@
     z-index: 10;
   }
  
-  
+/*   
   .listar-feature-item.listar-feature-has-link .listar-feature-item-inner:after {
     margin-left: -25px;
     width: 50px;
@@ -393,4 +393,4 @@
     background-size: 40%;
     color: #555;
     line-height: 52px;
-  }
+  } */

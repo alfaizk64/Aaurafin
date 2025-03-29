@@ -8,7 +8,7 @@ const AiInsights = [
   },
   {
     id: 2,
-    text: "Real-time capital allocation insights to optimize risk and returns",
+    text: " capital allocation insights to optimize risk and returns",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const AiInsights = [
 const benchmarkingInsights = [
   {
     id: 1,
-    text: "Real-time benchmarking of portfolios against market indices like NIFTY, SENSEX, and global benchmarks.",
+    text: " benchmarking of portfolios against market indices like NIFTY, SENSEX, and global benchmarks.",
   },
   {
     id: 2,

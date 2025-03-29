@@ -20,10 +20,10 @@ function AboutUsDesign({item,index}) {
                                 </div>
                                 <div className="listar-feature-content-wrapper" style={{paddingTop: 0}}>
                                   <div className="listar-feature-item-title listar-feature-counter-added">
-                                    <span className='mobile_para_font poppins-bold  text-[#12122A] text-[16px] md:text-[18px] leading-[30px]' ><span className=''>0{index}</span>
+                                    <span className='mobile_para_font poppins-bold  text-[#12122A] text-[16px] md:text-[18px] leading-[30px]' ><span className=''>{item.id}</span>
                                     {item.title} </span>
                                   </div>
-                                  <div className="listar-feature-item-excerpt  mobile_para_font poppins-regular lg:text-justify text-[#12122A] text-[16px] md:text-[18px] leading-[30px]">
+                                  <div className="listar-feature-item-excerpt  mobile_para_font poppins-regular  text-[#12122A] text-[16px] md:text-[18px] leading-[30px]">
                                  {item.description}  </div>
                                 </div>
                               </div>
