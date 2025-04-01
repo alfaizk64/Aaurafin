@@ -60,7 +60,7 @@ function AboutUs() {
                 {/* <h2 className="text-[#12122B] mobile_heading_font leading-9 md:leading-13 min-w-xl text-[28px] md:text-[42px] poppins-bold">
                 AI-Powered Family Office Management
                 </h2> */}
-                <p className="lg:mt-[32px] mt-[26px] mobile_para_font text-[#12122A] poppins-medium text-justify  text-[16px] md:text-[18px] leading-[30px]">
+                <p className="lg:mt-[32px] mt-[26px] mobile_para_font text-[#12122A] poppins-medium md:text-justify  text-[16px] md:text-[18px] leading-[30px]">
                 We empower Family Offices with cutting-edge AI technology to streamline investment portfolio management and drive smarter financial decisions. Designed for High-net-worth (HNW) families, our platform offers advanced analytics, automated asset tracking, and seamless portfolio insights—all in one place.
                 </p>
                 <motion.div className="grid lg:grid-cols-2 xl:grid-cols-3 place-items-center lg:place-items-stretch mt-[120px] md:mt-[120px]"
@@ -83,7 +83,7 @@ function AboutUs() {
                          </motion.div>
                   ))}
                 </motion.div>
-                <p className="mt-[24px] text-[#12122A] poppins-medium mobile_para_font text-justify  text-[16px] md:text-[18px] leading-[30px]">
+                <p className="mt-[24px] text-[#12122A] poppins-medium mobile_para_font md:text-justify  text-[16px] md:text-[18px] leading-[30px]">
                 Aaurafin gives Family Offices emmersive experience with secure, seamless control with cutting-edge technology. Take charge of your financial future today!
                 </p>
               </div>

@@ -6,6 +6,29 @@
     max-width: 450px;
   }
   
+  @media (min-width: 320px)  and (max-width:425px){
+    
+.listar-feature-item-wrapper {
+  margin-bottom: 110px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  max-width: 450px;
+}
+
+  .listar-feature-item .listar-feature-item-title.listar-feature-counter-added > span {
+    margin-left: 0px !important;
+    border-radius: 0 50px 50px 0;
+}
+.listar-feature-item .listar-feature-block-content-wrapper {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  margin: -30px;
+  padding-bottom: 0px;
+  height: calc(100% + 100px);
+  padding-inline: 18px;
+}
+}
   .listar-feature-item {
     height: 100%
   }
@@ -68,17 +91,20 @@
   
   
   .listar-feature-item .listar-feature-item-inner {
-    padding: 50px 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 6px;
     z-index: 5;
     position: relative;
     height: 100%;
   }
   
-  .listar-feature-item .listar-feature-item-inner {
+  /* .listar-feature-item .listar-feature-item-inner {
     padding-top: 60px;
     padding-bottom: 60px;
-  }
+  } */
   
   .listar-feature-item .listar-feature-item-inner:before {
     border: 0;
@@ -197,19 +223,15 @@
     height: calc(100% + 100px);
   }
   
-  @media  (min-width: 320px)  {
-   
-    .listar-feature-item .listar-feature-block-content-wrapper {
-      position: relative;
-      display: block;
-      text-decoration: none;
-      margin: -30px;
-      padding-bottom: 0px;
-      height: calc(100% + 100px);
-    }
-    
-    
+  .listar-feature-item .listar-feature-block-content-wrapper {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    margin: -30px;
+    padding-bottom: 0px;
+    height: calc(100% + 100px);
   }
+
   .listar-features-design-2 .listar-feature-item-wrapper {
     margin-bottom: 120px;
     padding-left: 27px;
