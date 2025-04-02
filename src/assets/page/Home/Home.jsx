@@ -48,7 +48,7 @@ function Home() {
               <h1 className="leading-9 md:leading-13 mobile_heading_font md:w-[800px] text-[28px] md:text-[42px] poppins-bold text-[#FFFFFF]">
               AI-Powered Investment Tracking for Family Offices – Seamlessly Consolidate, Analyze, and Automate.
               </h1>
-              <p className="poppins-regular mobile_para_font h-[60px] md:leading-[30px] tracking-tighter mt-[24px] text-[16px] md:text-[22px] text-[#FFFFFF] md:text-justify ">
+              <div className="">
                 {/* Our ai-driven approach enables Aaurafin.ai to make intelligent,
                 data-backed decisions, mitigate risks, and gain unparalleled
                 financial insights. whether your Aaurafin.ai is focused on
@@ -77,7 +77,7 @@ function Home() {
                    cursorChar={"_"}
                 /> */}
                 <FlipText/>
-              </p>
+              </div>
               
               <div className="flex justify-center lg:justify-start lg:items-end">
                 <Link to="/Contactus">

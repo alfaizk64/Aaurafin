@@ -28,7 +28,7 @@ const FlipText = () => {
           animate={{ rotateX: 0, opacity: 1 }}
           exit={{ rotateX: -90, opacity: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          // className="absolute"
+          className="poppins-regular mobile_para_font h-[60px] md:leading-[30px] tracking-tighter mt-[24px] text-[16px] md:text-[22px] text-[#FFFFFF] md:text-justify"
         >
           {texts[index]}
         </motion.div>
