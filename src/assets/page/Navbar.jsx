@@ -1428,7 +1428,7 @@ const NaLinks = [
       // },
     ],
   },
-  { name: "Contact Us", path: "/contactus" ,scrollTo:"contactus"},
+  { name: "Contact Us", path: "contactus" ,scrollTo:"contactus"},
 ];
 
 function Navbar() {
