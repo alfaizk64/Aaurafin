@@ -157,7 +157,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "contactus",
+        path: "https://aaurafin-ai.netlify.app/contactus",
         element:<>
           <div id="contactus">
           <ContactUs/>
