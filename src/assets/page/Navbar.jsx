@@ -173,8 +173,8 @@ useEffect(() => {
       // Store section ID before navigating
       if (path) {
         localStorage.setItem("scrollToSection", id);
-         navigate(path); // Redirect
-        // window.location.href = path; // Redirect
+        //  navigate(path); // Redirect
+        window.location.href = path; // Redirect
       }
     }
   };
