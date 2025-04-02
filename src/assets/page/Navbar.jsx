@@ -338,7 +338,7 @@ useEffect(() => {
                                 : "text-gray-700 hover:text-[#c18435] hover:bg-gray-200"
                             }`}
                             onClick={() => {
-                              handleScroll(subItem.scrollTo);
+                              handleScroll(subItem.scrollTo,subItem.path);
                               setActiveLink(subItem.scrollTo);
                               setDropdownOpen(null);
                               setMenuOpen(false);
