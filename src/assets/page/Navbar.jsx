@@ -1,6 +1,6 @@
 import React, { useState, useEffect,useRef  } from "react";
 import { FaBars, FaTimes, FaAngleDown } from "react-icons/fa";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { gsap } from "gsap";
 import {
   DropdownMenu,
@@ -58,7 +58,7 @@ const NaLinks = [
       // },
     ],
   },
-  { name: "Contact Us", path: "/Contactus" ,scrollTo:"contactus"},
+  { name: "Contact Us", path: "/contactus" ,scrollTo:"contactus"},
 ];
 
 function Navbar() {
@@ -145,7 +145,7 @@ useEffect(() => {
     setActiveLink(routeToSectionMap[pathname]);
   }
 }, [pathname]);
-
+ const navigate = useNavigate()
   //   const target = document.getElementById(id);
   //   if (target) {
   //     window.scrollTo({
@@ -172,9 +172,9 @@ useEffect(() => {
     } else {
       // Store section ID before navigating
       if (path) {
-        console.log(path)
         localStorage.setItem("scrollToSection", id);
-        window.location.href = path; // Redirect
+         navigate(path); // Redirect
+        // window.location.href = path; // Redirect
       }
     }
   };
