@@ -116,7 +116,7 @@ import Derivatives from "./assets/page/Derivatives/Derivatives";
 import RealtimeFolio from "./assets/page/real-time-folio/RealtimeFolio";
 import Analytics from "./assets/page/Analytics/Analytics";
 import DetailedInsights from "./assets/page/detailedInsights/detailedInsights";
-import WhyChoose from "./assets/page/whyChoose/WhyChoose";
+
 import PortfolioSplit from "./assets/page/portfolioSplit/portfolioSplit";
 import InteligentInvestment from "./assets/page/InteligentInvestment/inteligentInvestment";
 import TallyIntegration from "./assets/page/tallyinsight/TallyIntegration";
@@ -125,6 +125,7 @@ import "aos/dist/aos.css";
 import ContactUs from "./assets/page/contactUs/ContactUs";
 import { useState } from "react";
 import Loader from "./component/Loader";
+import WhyChoose from "./assets/page/whyChoose/whyChoose";
 
 const router = createBrowserRouter([
   {
@@ -150,7 +151,7 @@ const router = createBrowserRouter([
             <div id="tallyintegration"><TallyIntegration /></div>
             <div id="portfolioSplit"><PortfolioSplit /></div>
 
-            <div id="whychooseus"><WhyChoose /></div>
+            <div id="whychooseus"><WhyChoose/></div>
             <div id="footer"><Footer /></div>
           </>
         ),
