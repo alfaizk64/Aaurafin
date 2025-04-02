@@ -58,7 +58,7 @@ const NaLinks = [
       // },
     ],
   },
-  { name: "Contact Us", path: "/contactus" ,scrollTo:"contactus"},
+  { name: "Contact Us", path: "/Contactus" ,scrollTo:"contactus"},
 ];
 
 function Navbar() {
@@ -264,7 +264,7 @@ useEffect(() => {
                         ? "text-[#c18435] font-semibold"
                         : ""
                     }`}
-                    // to={item.path}
+                    to={item.path}
                     onClick={(e) => {
                       // e.preventDefault();
                       handleScroll(item.scrollTo,item.path);
