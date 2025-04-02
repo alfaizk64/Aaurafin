@@ -5,6 +5,8 @@ import { Outlet } from 'react-router-dom'
 import ScrollArrow from '../component/ScrollArrow'
 
 function MainLayout() {
+  
+ 
   return (
     <>
          <div className='flex relative flex-col min-h-screen'>

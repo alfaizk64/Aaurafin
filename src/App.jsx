@@ -157,7 +157,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "contactus",
+        path: "/contactus",
         element:<>
           <div id="contactus">
           <ContactUs/>
@@ -245,7 +245,7 @@ function App() {
        {
         isLoader? <Loader/> : ( <>
 
-      <RouterProvider router={router} />
+        <RouterProvider router={router}/>
 
         </>)
        }
