@@ -1635,7 +1635,7 @@ useEffect(() => {
                     }`}
                     to={item.path}
                     onClick={(e) => {
-                      e.preventDefault();
+                      // e.preventDefault();
                       handleScroll(item.scrollTo,item.path);
                     }}
                   >
