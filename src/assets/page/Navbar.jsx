@@ -1368,9 +1368,10 @@
 
 
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect,useRef  } from "react";
 import { FaBars, FaTimes, FaAngleDown } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
+import { gsap } from "gsap";
 import {
   DropdownMenu,
   DropdownMenuTrigger,
@@ -1437,6 +1438,19 @@ function Navbar() {
   const [activeLink, setActiveLink] = useState(null);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
  
+  const navItemsRef = useRef([]); // Ref for nav items
+
+  // GSAP animation on mount
+  useEffect(() => {
+    gsap.from(navItemsRef.current, {
+      opacity: 0,
+      y: -30,
+      duration: 1,
+      stagger: 0.7, // Delay between each item
+      ease: "power3.out",
+    });
+  }, []);
+
   // Scroll position tracking with debounce
   useEffect(() => {
     let ticking = false;
@@ -1496,13 +1510,12 @@ useEffect(() => {
     "/whychooseus": "whychooseus",
     "/contactus": "contactus", // Ensure contactus is mapped
   };
-
+ 
   if (routeToSectionMap[pathname]) {
     setActiveLink(routeToSectionMap[pathname]);
   }
 }, [pathname]);
 
-  // const handleScroll = (id,path) => {
   //   const target = document.getElementById(id);
   //   if (target) {
   //     window.scrollTo({
@@ -1570,7 +1583,7 @@ useEffect(() => {
         <div className="hidden lg:flex">
           <ul className="flex gap-8 text-[16px]  font-medium text-gray-700">
             {NaLinks.map((item, index) => (
-              <li key={index} className="relative">
+              <li key={index} ref={(el) => (navItemsRef.current[index] = el)} className="relative">
                 {item.dropdown ? (
                   <DropdownMenu open={isServicesOpen} onOpenChange={setIsServicesOpen}>
                     <DropdownMenuTrigger 
@@ -1604,7 +1617,7 @@ useEffect(() => {
                             className={`block px-4 py-2 w-full cursor-pointer open-sans text-left ${
                               activeLink === subItem.scrollTo 
                                 ? "text-[#c18435] font-semibold" 
-                                : "text-gray-700 hover:text-[#c18435]"
+                                : "text-[#57625E] hover:text-[#c18435]"
                             }`}
                           >
                            <LetterSwapForward label={subItem.name} />
@@ -1644,7 +1657,7 @@ useEffect(() => {
 
         {/* Mobile Menu */}
         <div
-          className={`fixed top-0 left-0 w-2/3 h-screen bg-white shadow-lg transform transition-transform ${
+          className={`fixed top-0 left-0 w-2/3 h-screen bg-white/65 backdrop-blur-sm  shadow-lg transform transition-transform ${
             menuOpen ? "translate-x-0" : "-translate-x-full"
           } lg:hidden`}
         >
@@ -1660,7 +1673,7 @@ useEffect(() => {
               <FaTimes />
             </button> */}
           </div>
-          <ul className="flex flex-col items-start ml-4 open-sans px-2 space-y-4 mt-2">
+          <ul className="flex flex-col items-start ml-4 open-sans px-2 space-y-4 mt-2" >
             {NaLinks.map((link, index) => (
               <li key={index} className="relative w-full">
                 {link.dropdown ? (

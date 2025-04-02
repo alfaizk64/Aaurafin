@@ -46,8 +46,10 @@ function AboutUs() {
 
   return (
     <>
-      <section className="w-full relative mt-[90px] md:mt-[90px] px-4">
-    
+      <section
+       className="w-full relative mt-[90px] md:mt-[90px] px-4">
+         <div className="absolute inset-0  bg-cover bg-no-repeat"
+          style={{backgroundImage: "url('/about/gradient_blur.png')"}}></div>
         <div className="max-w-7xl mx-auto ">
           <div className="flex flex-col items-center gap-8 md:gap-[72px] justify-between px-2 lg:flex-row pb-14 md:pb-[90px]">
             <div data-aos="fade-up" data-aos-duration="1000" className="right">

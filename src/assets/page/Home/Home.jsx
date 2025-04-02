@@ -1,8 +1,7 @@
-import React from "react";
-import Button from "../../../component/ui/Button";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import Typewriter from "@/fancy/components/text/typewriter";
 import FlipText from "./FlipText";
+
 
 function Home() {
   const financialInsights = [
@@ -19,11 +18,14 @@ function Home() {
       "Elevate your wealth management strategy with cutting-edge technology designed for high-net-worth families."
     
   ];
+ 
+ 
+
   return (
     <>
       <div
         data-aos="fade-down"
-        data-aos-delay="1000"
+        data-aos-delay="600"
         className="relative w-full bg-cover bg-center lg:p-4 xl:p-0 lg:rounded-b-[60%] overflow-hidden "
         style={{ backgroundImage: "url('/Home/home_heroSection_bg.png')" }}
       >
@@ -35,11 +37,11 @@ function Home() {
         ></div>
 
         {/* Content Section */}
-        <section className="max-w-7xl mx-auto">
+        <section className="max-w-7xl mx-auto" >
           <div className="flex flex-col justify-center items-center py-[100px] h-[100%] lg:flex-row md:gap-[40px] relative">
             <div
               data-aos="fade-up-right"
-              data-aos-delay="1000"
+              data-aos-delay="600"
               className="lg:pb-[180px] max-w-[95%] pb-[20px] md:mt-[60px]"
             >
               {/* <h1 className="open-sans text-[42px] px-2 font-bold leading-[52px] text-[#FFFFFF]"> */}
@@ -96,12 +98,12 @@ function Home() {
             </div>
             <div
               data-aos="fade-up-left"
-              data-aos-delay="1000"
+              data-aos-delay="600"
               className="flex px-2 lg:pb-[180px] flex-col items-center text-[#FFFFFF]"
             >
               <img src="/Home/hero-right.png" className=" max-w-[95%]" />
               <img
-                className="absolute hidden max-w-[500px] girl_posiion bottom-[-257px] right-[100px] lg:block xl:bottom-[-143px] xl:right-[100px]"
+                className="absolute hidden max-w-[500px] girl_posiion bottom-[-257px] right-[100px] lg:block xl:bottom-[-180px] xl:right-[100px]"
                 src="/Home/people-work 2.png"
               />
             </div>

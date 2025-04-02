@@ -6,9 +6,9 @@ function Analytics() {
     <>
       <section className="w-full relative">
         <div
+          className="absolute inset-0  bg-cover bg-no-repeat"
           data-aos="fade-down"
           data-aos-duration="1000"
-          className="absolute inset-0  bg-cover bg-no-repeat"
           style={{ backgroundImage: "url('/analytics/Maskgroup.png')" }}
         ></div>
         <div className="py-[90px] bg-[#1467d6]">
