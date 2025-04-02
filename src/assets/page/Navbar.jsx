@@ -1428,7 +1428,7 @@ const NaLinks = [
       // },
     ],
   },
-  { name: "Contact Us", path: "https://aaurafin-ai.netlify.app/contactus" ,scrollTo:"contactus"},
+  { name: "Contact Us", path: "/contactus" ,scrollTo:"contactus"},
 ];
 
 function Navbar() {
@@ -1542,6 +1542,7 @@ useEffect(() => {
     } else {
       // Store section ID before navigating
       if (path) {
+        console.log(path)
         localStorage.setItem("scrollToSection", id);
         window.location.href = path; // Redirect
       }
