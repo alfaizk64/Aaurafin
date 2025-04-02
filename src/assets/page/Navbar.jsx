@@ -173,8 +173,8 @@ useEffect(() => {
       // Store section ID before navigating
       if (path) {
         localStorage.setItem("scrollToSection", id);
-        //  navigate(path); // Redirect
-        window.location.href = path; // Redirect
+         navigate(path); // Redirect
+        // window.location.href = path; // Redirect
       }
     }
   };
@@ -195,7 +195,7 @@ useEffect(() => {
         }, 500); // Delay to ensure page load
       }
     }
-  }, []);
+  }, [pathname]);
   
     
   return (
